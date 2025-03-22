@@ -1,0 +1,41 @@
+{
+  "num_iterations": 10,
+  "warm_up_iterations": 2,
+  "timeout_seconds": 60,
+  "memory_tracking": true,
+  "accuracy_threshold": 0.80,
+  "ground_truth_path": "./data/ground_truth/",
+  "results_path": "./results/",
+  "frameworks": [
+    "camel",
+    "autogen",
+    "langchain",
+    "langgraph",
+    "crewai",
+    "ai_town"
+  ],
+  "architectures": [
+    "multi_framework",
+    "composable",
+    "hybrid"
+  ],
+  "agent_types": [
+    "stress_modeling",
+    "neurochemical_interaction",
+    "cognitive_assessment",
+    "intervention_recommendation",
+    "team_dynamics",
+    "pattern_recognition"
+  ],
+  "scenario_categories": [
+    "workplace",
+    "academic",
+    "healthcare",
+    "social",
+    "emergency"
+  ],
+  "inter_agent_communication_tracking": true,
+  "state_serialization_tracking": true,
+  "adapter_overhead_tracking": true,
+  "verbose": true
+}
