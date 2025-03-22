@@ -1,0 +1,111 @@
+{
+  "scenario_id": "workplace_deadline_stress",
+  "category": "workplace",
+  "agent_types": [
+    "stress_modeling",
+    "neurochemical_interaction",
+    "cognitive_assessment",
+    "intervention_recommendation"
+  ],
+  "input": {
+    "stress_factors": [
+      "deadline",
+      "workload",
+      "perfectionism"
+    ],
+    "context": "Project deadline in 48 hours with significant remaining work",
+    "user_profile": {
+      "baseline_cortisol": 12.0,
+      "cortisol_reactivity": 1.2,
+      "stress_coping_score": 6.5
+    },
+    "team_size": 5,
+    "team_roles": [
+      "project_manager",
+      "developer",
+      "designer",
+      "tester",
+      "business_analyst"
+    ]
+  },
+  "expected_output": {
+    "stress_modeling": {
+      "stress_level": 8.2,
+      "triggers": [
+        "deadline",
+        "workload",
+        "perfectionism"
+      ],
+      "recommended_interventions": [
+        "deep_breathing",
+        "prioritization",
+        "time_management",
+        "task_delegation"
+      ]
+    },
+    "neurochemical_interaction": {
+      "concentrations": {
+        "cortisol": 24.3,
+        "adrenaline": 14.84,
+        "dopamine": 8.44,
+        "serotonin": 15.08
+      },
+      "patterns": [
+        "acute_stress_response",
+        "elevated_cortisol",
+        "reward_seeking_behavior"
+      ],
+      "recommendations": [
+        "physical_activity",
+        "deep_breathing",
+        "reward_scheduling"
+      ]
+    },
+    "cognitive_assessment": {
+      "cognitive_load": 8.6,
+      "attention_span": 3.44,
+      "working_memory": 5.7,
+      "decision_making": 4.84,
+      "recommendations": [
+        "task_simplification",
+        "pomodoro_technique",
+        "decision_frameworks"
+      ]
+    },
+    "intervention_recommendation": {
+      "priority_interventions": [
+        "stress_reduction",
+        "cognitive_support",
+        "team_support"
+      ],
+      "detailed_recommendations": [
+        {
+          "name": "deep_breathing",
+          "frequency": "daily",
+          "duration": "15 minutes"
+        },
+        {
+          "name": "task_prioritization",
+          "frequency": "daily",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "pomodoro_technique",
+          "frequency": "during work",
+          "duration": "25/5 minutes"
+        },
+        {
+          "name": "task_delegation",
+          "frequency": "as needed",
+          "duration": "varies"
+        }
+      ],
+      "expected_outcomes": [
+        "reduced_stress",
+        "improved_focus",
+        "better_decision_making",
+        "increased_productivity"
+      ]
+    }
+  }
+}
