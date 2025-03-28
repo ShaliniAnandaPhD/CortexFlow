@@ -1,3 +1,5 @@
+#Please note this repository uses a modified MIT license to account for attribution. License details: 👆
+
 # CortexFlow
 
 <p align="center">
